@@ -19,9 +19,9 @@ services:
   sonarqube:
     image: sonarqube:8-community
     expose:
-      - 9000
+      - 90
     ports:
-      - 9000:9000
+      - 90:9000
     networks:
       - sonarnet
     environment:
